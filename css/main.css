@@ -14,12 +14,15 @@ html {
 }
 
 a {
+  display: block;
   color: #fff;
   text-decoration: none;
   border-left: 1px solid #a63f38;
+  text-align: center;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
   border-top: 1px solid #a63f38;
   margin: 0;
@@ -38,8 +41,9 @@ img {
 }
 
 li {
-  display: inline;
   align-items: center;
+  justify-content: space-between;
+  width: 33.33%;
 }
 
 body {
@@ -53,4 +57,8 @@ h1 {
 
 a:hover {
   background-color: #a63f38;
+}
+
+.nav {
+  display: flex;
 }
